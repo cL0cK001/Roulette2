@@ -5,7 +5,7 @@ public class Roulette : MonoBehaviour
 {
     public float minStartSpeed = 600f;  // 回転開始時の速さの最小値(度/秒)
     public float maxStartSpeed = 1200f; // 回転開始時の速さの最大値(度/秒)
-    public float deceleration = 0.98f;  // 毎フレームの減速率
+    public float deceleration = 0.99f;  // 毎フレームの減速率
 
     float speed = 0f;
     bool isSpinning = false;
